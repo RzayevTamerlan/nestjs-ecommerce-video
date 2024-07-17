@@ -1,0 +1,1 @@
+export const filterBySubString = (arr: string[], subString: string) => arr.filter((item) => item.includes(subString));
