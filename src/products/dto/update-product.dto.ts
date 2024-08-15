@@ -1,7 +1,7 @@
 import { IsMongoId } from 'class-validator';
-import mongoose from 'mongoose';
+import { Types } from 'mongoose';
 
 export class UpdateProductDto {
   @IsMongoId()
-  id: mongoose.Schema.Types.ObjectId;
+  id: Types.ObjectId;
 }

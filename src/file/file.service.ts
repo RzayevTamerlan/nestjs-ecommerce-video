@@ -6,7 +6,7 @@ import * as sharp from 'sharp';
 import { MFile } from './mfile.class';
 import { CACHE_MANAGER } from '@nestjs/cache-manager';
 import { Cache } from 'cache-manager';
-import { deleteCache } from '../utils/deleteCache';
+import { deleteCache } from '../common/utils/deleteCache';
 
 @Injectable()
 export class FileService {

@@ -7,6 +7,9 @@ import { AuthModule } from './auth/auth.module';
 import { FileModule } from './file/file.module';
 import { CategoriesModule } from './categories/categories.module';
 import { ProductsModule } from './products/products.module';
+import { CommentsModule } from './comments/comments.module';
+import { BasketModule } from './basket/basket.module';
+import { OrdersModule } from './orders/orders.module';
 
 @Module({
   imports: [
@@ -31,9 +34,10 @@ import { ProductsModule } from './products/products.module';
     FileModule,
     CategoriesModule,
     ProductsModule,
+    CommentsModule,
+    BasketModule,
+    OrdersModule,
   ],
-  controllers: [],
-  providers: [],
 })
 export class AppModule {
 }

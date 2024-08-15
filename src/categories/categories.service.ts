@@ -6,7 +6,7 @@ import { CategoriesDocument } from './categories.model';
 import { CACHE_MANAGER } from '@nestjs/cache-manager';
 import { Cache } from 'cache-manager';
 import { CategoriesDto } from './dto/categories.dto';
-import { deleteCache } from '../utils/deleteCache';
+import { deleteCache } from '../common/utils/deleteCache';
 import { Types } from 'mongoose';
 
 @Injectable()

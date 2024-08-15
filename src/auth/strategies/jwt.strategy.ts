@@ -23,6 +23,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
       throw new NotFoundException(USER_NOT_FOUND);
     }
 
+    // Попадает в req.user:
     return user;
   }
 
